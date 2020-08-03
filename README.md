@@ -24,4 +24,4 @@ After running the ACO algorithm we have found the following order of tasks:
 
 ![Screenshot after](https://i.imgur.com/KReRVjb.png)
 
-As you can see, the order of the tasks have changed, as well as the end times of the tasks. The end time of the last task on machine two tell us the total time it takes to finish all tasks - in this instance the ACO managed to shorten the total time from **1063** to **893**.
+As you can see, the order of the tasks has changed, as well as the end times of the tasks. The end time of the last task on machine two tell us the total time it takes to finish all tasks - in this instance the ACO managed to shorten the total time from **1063** to **893**.
