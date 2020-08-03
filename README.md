@@ -12,7 +12,7 @@ Next, run Sorter.py. This is where the Ant Colony Sorting algorithm learns the b
 # Example
 For this example we have generated a small instance of the problem - 20 tasks with 4 maintenance periods:
 
-![Screenshot before](https://imgur.com/KReRVjb)
+![Screenshot before](https://i.imgur.com/KReRVjb.png)
 
 All tasks have different set parameters:
 * **nr**: the number of the task - this is important because on machine two before a task can be started the task with the same number has to be completed on machine one
@@ -22,6 +22,6 @@ All tasks have different set parameters:
 
 After running the ACO algorithm we have found the following order of tasks:
 
-![Screenshot after](https://imgur.com/Mg60mmj)
+![Screenshot after](https://i.imgur.com/KReRVjb.png)
 
 As you can see, the order of the tasks have changed, as well as the end times of the tasks. The end time of the last task on machine two tell us the total time it takes to finish all tasks - in this instance the ACO managed to shorten the total time from **1063** to **893**.
