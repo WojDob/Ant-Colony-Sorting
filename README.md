@@ -20,8 +20,4 @@ All tasks have different set parameters:
 * **end**: the time at which this task end during the current iteration of the algorithm - this changes during the course of the algorithm.
 
 
-After running the ACO algorithm we have found the following order of tasks:
-
-![Screenshot after](https://i.imgur.com/KReRVjb.png)
-
-As you can see, the order of the tasks has changed, as well as the end times of the tasks. The end time of the last task on machine two tells us the total time it takes to finish all tasks - in this instance the ACO managed to shorten the total time from **1063** to **893**.
+After running the ACO algorithm the end time of the last task on machine two tells us the total time it takes to finish all tasks - in this instance the ACO managed to shorten the total time from **1063** to **893**.
